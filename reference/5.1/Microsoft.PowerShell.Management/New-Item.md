@@ -134,7 +134,7 @@ Accept wildcard characters: False
 ### -Force
 Forces this cmdlet to create an item that writes over an existing read-only item.
 Implementation varies from provider to provider.
-For more information, see about_Providers.
+For more information, see [about_Providers].
 Even using the *Force* parameter, the cmdlet cannot override security restrictions.
 
 ```yaml
@@ -275,7 +275,7 @@ You can pipe a value for the new item to this cmdlet.
 This cmdlet returns the item that it creates.
 
 ## NOTES
-* **New-Item** is designed to work with the data exposed by any provider. To list the providers available in your session, type `Get-PsProvider`. For more information, see about_Providers.
+* **New-Item** is designed to work with the data exposed by any provider. To list the providers available in your session, type `Get-PsProvider`. For more information, see [about_Providers].
 
 *
 
@@ -296,4 +296,6 @@ This cmdlet returns the item that it creates.
 [Rename-Item](Rename-Item.md)
 
 [Set-Item](Set-Item.md)
+
+[about_Providers](../Microsoft.PowerShell.Core/About/about_Providers.md)
 
